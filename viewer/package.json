@@ -1,20 +1,14 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "foot-pedal-sheet-music",
+  "version": "0.0.2",
+  "description": "Foot Pedal Driven Sheet Music Viewer",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
+  "repository": "https://github.com/laraleedev/footPedalSheetMusic/tree/master/viewer",
+  "keywords": [],
+  "author": "Lara Lee",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^4.0.3"
