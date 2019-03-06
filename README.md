@@ -2,7 +2,11 @@
 
 Created to deal with changing pages when serving sheet music via a laptop/monitor.
 
-Follows the [Adafruit Usb Foot Switch](https://learn.adafruit.com/usb-foot-switch/overview) build, with a custom written viewer that loads sheet music via image file or pdf, and scrolls through them with each foot press.
+Follows the [Adafruit Usb Foot Switch](https://learn.adafruit.com/usb-foot-switch/overview) build, with a custom written viewer that loads sheet music via image file, and scrolls through them with each foot press.
+
+## Conversion
+Only really supports image files, so here's a pdf to image conversion using ghostscript/imagemagick
+`FOR /R %G IN (*.pdf) DO magick -verbose -density 150 "%G" -quality 100 -background white -alpha off "%~dpnG"-%d.png`
 
 ## Video
 [Click here to see it working](https://streamable.com/wvg2b)
