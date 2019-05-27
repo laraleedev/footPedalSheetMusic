@@ -14,7 +14,7 @@ So I slapped it into a very efficient and recycling friendly cardboard enclosure
 
 Really though, I just got tired of drilling ports into the plastic enclosure.
 
-It also uses a [trinket M0](https://adafruit.com/product/3500) instead of the original trinket. Also runs on [python code](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/circuitpython) instead.  
+It also uses a [trinket M0](https://adafruit.com/product/3500) instead of the original trinket. Also runs on [python](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/circuitpython) instead.  
  
 
 ### Build log
